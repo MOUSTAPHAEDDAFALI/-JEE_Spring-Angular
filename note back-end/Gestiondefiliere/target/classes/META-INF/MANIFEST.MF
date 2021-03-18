@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: light-ecom-v1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: moustapha dafali
+Implementation-Vendor-Id: org.sid
+Build-Jdk: 1.8.0_191
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/light-ecom-v1
+Created-By: Maven Integration for Eclipse
+
