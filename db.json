@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "etudiants": [
+    {
+      "id": 1,
+      "nom": "moustapha",
+      "prenom": "dafali",
+      "note": 12,
+      "emailId": "mouss@gmail.com",
+      "active": false
+    },
+    {
+      "id": 2,
+      "nom": "mohamed",
+      "prenom": "kamili",
+      "note": 15,
+      "emailId": "kamili@gmail.com",
+      "active": true
+    },
+    {
+      "id": 3,
+      "nom": "mohamed",
+      "prenom": "chiby",
+      "note": 14,
+      "emailId": "mouhamed@gmail.com",
+      "active": true
+    },
+    {
+      "nom": "omar",
+      "prenom": "hada",
+      "note": "23",
+      "emailId": "hada@gmail.com",
+      "id": 4
+    }
+  ]
+}

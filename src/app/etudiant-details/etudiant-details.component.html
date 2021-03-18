@@ -1,0 +1,23 @@
+<h2>Etudiant Details</h2> 
+
+<hr/>
+<div *ngIf="etudiant">
+  <div>
+    <label><b>Nom: </b></label> {{etudiant.nom}}
+  </div>
+  <div>
+    <label><b>Prénom: </b></label> {{etudiant.prenom}}
+  </div>
+  <div>
+    <label><b>note: </b></label> {{etudiant.note}}
+  </div>
+  <div>
+    <label><b>Email Id: </b></label> {{etudiant.emailId}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Etudiant List</button><br>
+
+

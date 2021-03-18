@@ -1,0 +1,31 @@
+<h3>Ajouter Etudiant</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Nom</label>
+      <input type="text" class="form-control" id="nom" required [(ngModel)]="etudiant.nom" name="nom">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Prénom</label>
+      <input type="text" class="form-control" id="prenom" required [(ngModel)]="etudiant.prenom" name="prenom">
+    </div>
+
+    <div class="form-group">
+      <label for="name">note</label>
+      <input type="text" class="form-control" id="note" required [(ngModel)]="etudiant.note" name="note">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Email</label>
+      <input type="text" class="form-control" id="emailId" required [(ngModel)]="etudiant.emailId" name="emailId">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <h4>You submitted successfully!</h4>
+  <!-- <button class="btn btn-success" (click)="newEmployee()">Add</button> -->
+</div>
